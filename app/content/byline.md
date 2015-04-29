@@ -1,0 +1,1 @@
+**Marko Poikkimäki** bor i Göteborg och pluggar *PHP* webbprogrammering på distans.
