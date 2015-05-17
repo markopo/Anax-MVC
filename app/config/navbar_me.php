@@ -82,6 +82,11 @@ return [
             'text'  =>'Source',
             'url'   => $this->di->get('url')->create('source'),
             'title' => 'Source'
+        ],
+        'comments' => [
+            'text'  =>'Comments',
+            'url'   => $this->di->get('url')->create('comments'),
+            'title' => 'Comments'
         ]
     ],
  
