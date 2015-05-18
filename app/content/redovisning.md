@@ -20,7 +20,7 @@ tid är Laravel, som jag tycker verkar vara ett alldeles utmärkt ramverk.
 #### Begrepp 
 
 
-Ja, jag är bekant med Dependency Injection och Design patterns sedan tidigare, men jag känner att jag kan bli mycket bättre inom detta med. Finns 
+Ja, jag är lite bekant med Dependency Injection och Design patterns sedan tidigare, men jag känner att jag kan bli mycket bättre inom detta med. Finns 
 ju en hel del att lära sig där fortfarande. De här grejerna är verkligen intressanta och ibland känns det som rena julafton för en programmeringsnörd 
 som jag ändå är. 
 
@@ -28,7 +28,7 @@ som jag ändå är.
 #### Anax 
 
 
-Jag blev positivt överraskad av ramverket, det verkar bra skrivet med många (alla?) avancerade begrepp som används i moderna ramverk i dagens läge. Det är 
+Jag blev positivt överraskad av ramverket, det verkar bra skrivet med många avancerade begrepp som används i moderna ramverk i dagens läge. Det är 
 mycket mer avancerat än CodeIgniter som är ett lättare ramverk och aningen föråldrat. Så den här kursen känns kul. Och överlag har man ju snöat in sig på PHP:andet, 
 vilket känns som har framtiden för sig med nästa version av språket (7:an). Och alla spännande ramverk som finns, en stor community bakom språket och det snabba 
 arbetsflödet med PHP, känns det som det inte är fel att satsa på språket. 
@@ -57,8 +57,12 @@ och kollat hur alltihopa laddas in. Mycket lärorikt faktiskt. Jag laddade fakti
 
 #### Svagheter 
 
-Det som jag noterade var att en post sparas oavsett om man skrivit något. Någon slags validation borde det vara, helst både klient- och servervalidation. Och redirecten som sparas i ett hidden-fält gick 
-till startsidan, så jag ändrade den så den stannade på commentssidan. 
+Det som jag noterade var att en post sparas oavsett om man skrivit något. Jag har skapat en grundläggade validation som kollar att man skrivit något i content, name och mail-fälten, annars sparas det inte.
+Och jag har skapat en klass för validationsmeddelandet som meddelar användaren ifall man inte skrivit något. Det funkar med session på ungefär samma sätt som comments. Det var en ganska bra övning att hacka lite 
+lätt på applikationen och skapa något eget. Känns som man fick lite mer inblick i uppbyggnaden av applikationen efter det. Och äntligen har jag fått igång XDebug på PHPStorm, vilket jag kan tycka var aningen
+meckigt att få igång tidigare, oavsett vad andra säger. Det har varit till stor hjälp vid kodningen. Känns som man har mycket bättre koll på allting när man kan sätta breakpoints där man vill. Det är ett arbetsflöde 
+som jag är mycket bekväm i sedan tidigare med .NET:tandet, vilket jag saknat lite tidigare. Så nu är det bara tuta och köra, och ett steg närmare mot att bygga bättre applikationer. 
+Och redirecten som sparas i ett hidden-fält gick till startsidan, så jag ändrade den så den stannade på commentssidan. 
 
 
 
