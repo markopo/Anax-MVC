@@ -34,3 +34,31 @@ vilket känns som har framtiden för sig med nästa version av språket (7:an). 
 arbetsflödet med PHP, känns det som det inte är fel att satsa på språket. 
 
 
+## Redovisning - kmom02 
+
+#### Composer 
+
+Composer känns rätt fantastiskt och bra att det finns ett enhetligt sätt att ladda ner olika tredjepartspaket och liknande. Det är ju ett stort steg för 
+PHP att det kommit. Det känns rätt skönt faktiskt att inte lämna editorn utan med ett composer kommando ladda ner en ny resurs, istället för att manuellt mecka
+med det. 
+
+#### Packagist 
+
+
+Packagist verkar mycket bra, och att det finns en central plats för alla paket. Helt klart, väldigt användbart. .NET har ju NuGet och Node/js har ju NPM för samma, Ruby har väl sina gems. Så
+det verkar väl börja finnas i alla språk. Själv har jag inte kollat på sajten innan. Det lilla jag använt Composer innan är att ladda ner ett ramverk och sedan tuta och köra. 
+
+
+#### Begrepp 
+
+Det är många tjusiga begrepp bakom allt, men om man ser nyktert på vad de i egentligen gör är det inte så märkvärdigt i egentligen. Det är ganska begripligt alltihopa, rätt kul och intressant också. 
+Det svåra är väl att få en känsla för flödet i applikationen och hur det laddas in för varje sidladdning. Jag har satt en breakpoint någonstans i början av där DI instansierar sig och sedan steppat igenom 
+och kollat hur alltihopa laddas in. Mycket lärorikt faktiskt. Jag laddade faktiskt ner Yii-applikationen och gjorde likadant där också. 
+
+#### Svagheter 
+
+Det som jag noterade var att en post sparas oavsett om man skrivit något. Någon slags validation borde det vara, helst både klient- och servervalidation. Och redirecten som sparas i ett hidden-fält gick 
+till startsidan, så jag ändrade den så den stannade på commentssidan. 
+
+
+

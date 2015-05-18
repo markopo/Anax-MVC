@@ -220,3 +220,22 @@ h1 {
 .byline p {
   margin-top: 0;
 }
+
+
+/** Comments */ 
+
+.comments {
+    padding: 10px 0;
+}
+
+.comments .comment {
+    margin: 5px 0;
+    padding: 10px 25px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    width: auto;
+}
+
+.comments .comment p {
+    margin: 3px 0;
+}
