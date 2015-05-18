@@ -62,7 +62,8 @@ Och jag har skapat en klass för validationsmeddelandet som meddelar användaren
 lätt på applikationen och skapa något eget. Känns som man fick lite mer inblick i uppbyggnaden av applikationen efter det. Och äntligen har jag fått igång XDebug på PHPStorm, vilket jag kan tycka var aningen
 meckigt att få igång tidigare, oavsett vad andra säger. Det har varit till stor hjälp vid kodningen. Känns som man har mycket bättre koll på allting när man kan sätta breakpoints där man vill. Det är ett arbetsflöde 
 som jag är mycket bekväm i sedan tidigare med .NET:tandet, vilket jag saknat lite tidigare. Så nu är det bara tuta och köra, och ett steg närmare mot att bygga bättre applikationer. 
-Och redirecten som sparas i ett hidden-fält gick till startsidan, så jag ändrade den så den stannade på commentssidan. 
+Och redirecten som sparas i ett hidden-fält gick till startsidan, så jag ändrade den så den stannade på commentssidan. Det som jag funderar på är om man skall lägga till vendor-foldern till git, den var av från 
+början, men om man ändrat i den källkoden så vill man ju ha med sina ändringar. I egentligen skulle jag vilja flytta på mina phpmvc klasser under app/src/-foldern. 
 
 
 
