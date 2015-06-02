@@ -1,10 +1,7 @@
 <hr>
 
 <h2>Comments</h2>
-
-<?php if(!empty($message)): ?>
-    <p class="validation-message" style="color:red;"><?= $message ?></p>
-<?php endif ?>
+<p><a href="<?= $this->url->create('comment')?>?action=add">Add new</a></p>
 
 <?php if (is_array($comments)) : ?>
 <div class='comments'>
@@ -16,6 +13,7 @@
 <p>comment: <?= $comment["content"] ?></p>
 <p>ip: <?= $comment["ip"] ?></p>
 <p>timestamp: <?= $comment["timestamp"] ?></p>
+<p><a href="<?= $this->url->create('comment')?>?id=<?= $id ?>">View</a></p>
 </div>
 <?php endforeach; ?>
 </div>

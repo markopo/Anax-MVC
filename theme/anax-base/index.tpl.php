@@ -9,6 +9,7 @@
 <?php endforeach; ?>
 <?php if(isset($style)): ?><style><?=$style?></style><?php endif; ?>
 <script src='<?=$this->url->asset($modernizr)?>'></script>
+<?php if(isset($jquery)):?><script src='<?=$this->url->asset($jquery)?>'></script><?php endif; ?>
 </head>
 
 <body>
@@ -47,7 +48,7 @@
 
 </div>
 
-<?php if(isset($jquery)):?><script src='<?=$this->url->asset($jquery)?>'></script><?php endif; ?>
+
 
 <?php if(isset($javascript_include)): foreach($javascript_include as $val): ?>
 <script src='<?=$this->url->asset($val)?>'></script>

@@ -72,13 +72,22 @@ $app->router->add('comments', function() use ($app) {
         'action'     => 'view',
     ]);
 
-    $app->views->add('comment/form', [
-        'mail'      => null,
-        'web'       => null,
-        'name'      => null,
-        'content'   => null,
-        'output'    => null,
+
+});
+
+
+$app->router->add('comment', function() use ($app){
+
+    $app->theme->setTitle("Welcome to Anax Guestbook");
+    $app->views->add('comment/index');
+
+    $app->dispatcher->forward([
+        'controller' => 'comment',
+        'action'     => 'viewOne',
     ]);
+
+
+
 });
 
 
